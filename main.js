@@ -39,6 +39,7 @@ function createTray () {
   ]
   const menu = Menu.buildFromTemplate(template)
   tray.setContextMenu(menu)
+  Menu.setApplicationMenu(menu)
 }
 
 function createWindow () {
